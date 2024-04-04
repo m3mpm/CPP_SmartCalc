@@ -1,0 +1,137 @@
+\input texinfo
+@comment %**start of header
+@settitle SmartCalc v2.0 User's Manual
+@comment %**end of header
+
+@ifinfo
+@copying
+Copyright © 2022 zgeorgan
+@end copying
+@end ifinfo
+
+
+SmartCacl v2.0 manual 
+
+The application is a graphing calculator with graphing support.
+
+The calculator supports the following arithmetic operations:
+
+1. Addition: a + b
+
+2. Subtraction: a - b
+
+3. Multiplication: a * b
+
+4. Division: a / b
+
+5. Exponentiation: a ^ b
+
+6. The remainder of division: a mod b
+
+7. Unary plus +a
+
+8. Unary minus -a
+
+And functions:
+
+1. cos(x)
+
+2. sin(x)
+
+3. tan(x)
+
+4. acos(x)
+
+5. asin(x)
+
+6. atan(x)
+
+7. sqrt(x)
+
+8. ln(x)
+
+9. log(x)
+
+The input to the program can be integers as well as real numbers, written both in point and exponential form of notation
+
+Entering a real number in exponential form supports the following forms: 1e+10, 1e10, 1e-10
+
+Calculator instructions:
+
+1. Graphical buttons and keyboard input can be used to enter an expression.
+
+2. Up to 255 characters can be entered.
+
+3. The "<-" button removes one character.
+
+4. Enter "AC" button to clear the screen 
+
+5. The "graph" button switches to the graph window.
+
+6. To build a graph it is necessary that the output contains x
+
+7. The start x and end x fields define the area of the value.
+
+8. To build a graph you must click the "Build graph" button.
+
+9. To go back to the calculator, click the "Come back to calc" button.
+
+10. To clear the graph area, press the "Clear graph" button.
+
+11. If the function contains x, the user will be given the opportunity to substitute the desired value. The default is x=0.
+
+12. The application will report an error if entered incorrectly.
+
+Credit calculator:
+
+1. Press the "credit" button to go to the credit calculator.
+
+2. Enter the loan amount.
+
+3. Enter the loan term in months.
+
+4. Enter the interest rate in percent.
+
+5. Select the type of payments.
+
+6. Press the "Calculate" button to calculate.
+
+7. Press the "Clear credit" button to clear the data.
+
+8. You can enter new values for the new calculation.
+
+9. To return to the normal calculator, press the "Come back to calc" button.
+
+Deposit calculator:
+
+1. To go to the deposit calculator, press the "deposit" button.
+
+2. Enter the deposit amount.
+
+3. Enter the deposit term in months.
+
+4. Enter the interest rate.
+
+5. Enter the tax rate in percent.
+
+6. Enter the CenterBank key rate (can be viewed at: https://calcus.ru/klyuchevaya-stavka).
+
+7. Enter the start date for the deposit.
+
+8. Select the periodicity of payments: Every day, Every week, Every month, Every six months, Every year, At the end of the term.
+
+9. To add date and amount of deposit or withdrawal press the button "+" on the left side of the corresponding field, enter date in format: dd.mm.yyyyy (for example 10.09.2023) in the left column and amount in the right column of the row.
+
+10. To delete the last line for the corresponding field, click on the "-" button on the left side of the field. Using this method you can delete all rows in the corresponding field.
+
+11. Click the "Calculate" button to get the result.
+
+12. Press the "Clear" button to clear the data.
+
+13. Press the "Come back to calc" button to return to the normal calculator.
+
+To exit the program, press the red button in the upper left corner.
+
+Thank you.
+
+@bye
